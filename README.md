@@ -1,69 +1,70 @@
-# Welcome to your Lovable project
+📊 MultiRank Explorer
 
-## Project info
+MultiRank Explorer is a powerful web application that provides website metrics by simply entering a link. It offers insights into a website's Domain Authority (DA), Page Authority (PA), keywords, and more to help users optimize their online presence.
 
-**URL**: https://lovable.dev/projects/b1bbc271-6672-4148-972c-93a7dad1bcba
+🚀 Features
 
-## How can I edit this code?
+✅ Retrieve Domain Authority (DA) and Page Authority (PA) instantly.
 
-There are several ways of editing your application.
+✅ Analyze keywords associated with any website.
 
-**Use Lovable**
+✅ View additional SEO-related metrics to enhance digital strategies.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b1bbc271-6672-4148-972c-93a7dad1bcba) and start prompting.
+✅ Easy-to-use interface for quick and efficient analysis.
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠️ Technologies Used
 
-**Use your preferred IDE**
+Frontend: TypeScript (98.3%)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Other: 1.7%
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧩 Installation
 
-Follow these steps:
+Clone the repository:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Mianhassam96/multirank-explorer.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Navigate to the project directory:
 
-# Step 3: Install the necessary dependencies.
-npm i
+cd multirank-explorer
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Install dependencies:
 
-**Edit a file directly in GitHub**
+npm install
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Run the application:
 
-**Use GitHub Codespaces**
+npm start
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📖 Usage
 
-## What technologies are used for this project?
+Open the application in your browser.
 
-This project is built with .
+Enter any website URL in the input field.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Get instant insights into the website's DA, PA, and keywords.
 
-## How can I deploy this project?
+📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/b1bbc271-6672-4148-972c-93a7dad1bcba) and click on Share -> Publish.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## I want to use a custom domain - is that possible?
+🤝 Contributing
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Contributions are welcome! Feel free to submit issues and pull requests to improve this project.
+
+🌐 Live Demo
+
+Click here to see the live demo
+
+📧 Contact
+
+For any inquiries or feedback, reach out to:
+
+Name: Mian Hassam
+
+GitHub: Mianhassam96
+
+Email: mhassamkb@gmail.com
+
+Built with passion by Mian Hassam 💻
+
