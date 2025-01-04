@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">
-              MultiMain
+              MultiMian
             </h3>
             <p className="text-gray-300">
               Advanced website analysis tools for modern web professionals.
@@ -49,7 +49,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} MultiMain. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MultiMian. All rights reserved.</p>
         </div>
       </div>
     </footer>
