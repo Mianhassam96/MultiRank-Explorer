@@ -2,51 +2,53 @@ import { Github, Twitter, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="w-full py-8 px-6 bg-white border-t mt-auto">
+    <footer className="w-full py-12 px-6 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">MultiMain</h3>
-            <p className="text-gray-600">
+            <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">
+              MultiMain
+            </h3>
+            <p className="text-gray-300">
               Advanced website analysis tools for modern web professionals.
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-xl font-semibold text-indigo-400">Quick Links</h3>
+            <ul className="space-y-3">
               <li>
-                <a href="#privacy" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#privacy" className="text-gray-300 hover:text-indigo-400 transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#terms" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#terms" className="text-gray-300 hover:text-indigo-400 transition-colors">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#faq" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#faq" className="text-gray-300 hover:text-indigo-400 transition-colors">
                   FAQ
                 </a>
               </li>
             </ul>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Connect</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
-                <Github className="w-5 h-5" />
+            <h3 className="text-xl font-semibold text-indigo-400">Connect</h3>
+            <div className="flex space-x-6">
+              <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors">
+                <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors">
+                <Twitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
-                <Mail className="w-5 h-5" />
+              <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors">
+                <Mail className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t text-center text-gray-600">
+        <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} MultiMain. All rights reserved.</p>
         </div>
       </div>
